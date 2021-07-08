@@ -14,6 +14,7 @@ h1 {
 }
 body {
     padding: 150px;
+    background-color: black;
 }
 .container {
     width: calc((100% - 60px) / 3);
@@ -25,6 +26,7 @@ body {
 }
 
 .container .text {
+    color: white;
     padding: 25px;
     display: none;
 }
@@ -38,5 +40,11 @@ body {
 }
 .container:hover .text {
     display: block;
+    border: 1px solid slategray;
 }
+
+.container h2 {
+    color: red;
+}
+
 

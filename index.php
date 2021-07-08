@@ -30,15 +30,19 @@
             <p>
                 <?= $movie1->years; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie1->duration; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie1->author; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie1->description; ?>
             </p>
+            <hr>
         </div>
     </div>
 
@@ -48,18 +52,23 @@
             <h2>
                 <?= $movie2->title; ?>
             </h2>
+            
             <p>
                 <?= $movie2->years; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie2->duration; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie2->author; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie2->description; ?>
             </p>
+            <hr>
         </div>
     </div>
     <div class="container">
@@ -68,18 +77,23 @@
             <h2>
                 <?= $movie3->title; ?>
             </h2>
+            
             <p>
                 <?= $movie3->years; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie3->duration; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie3->author; ?>
             </p>
+            <hr>
             <p>
                 <?= $movie3->description; ?>
             </p>
+            <hr>
         </div>
     </div>
     
