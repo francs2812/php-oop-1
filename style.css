@@ -1,0 +1,42 @@
+/* COMMINT */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* /COMMINT */
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 120px;
+}
+body {
+    padding: 150px;
+}
+.container {
+    width: calc((100% - 60px) / 3);
+    height: 45vh;
+    float: left;
+    margin: 30px 10px;
+    text-align: center;
+    /* background-color: greenyellow; */
+}
+
+.container .text {
+    padding: 25px;
+    display: none;
+}
+
+.container img {
+    height: 100%;
+}
+
+.container:hover img {
+    display: none;
+}
+.container:hover .text {
+    display: block;
+}
+
